@@ -1,0 +1,20 @@
+{
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 120,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["clsx", "cn"],
+  "importOrder": [
+    "^react(.*)$",
+    "^next(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/config/(.*)$",
+    "^@/constants/(.*)$",
+    "^@/app/lib/(.*)$",
+    "^@/app/ui/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true
+}

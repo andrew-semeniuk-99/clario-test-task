@@ -1,0 +1,10 @@
+{
+  "signUp": "Sign up",
+  "placeholderEmail": "Enter your email",
+  "placeholderPassword": "Create your password",
+  "validationHasNumber": "At least one digit",
+  "validationInvalidEmail": "Invalid email address",
+  "validationHasRegistry": "Uppercase and lowercase letters",
+  "validationMinLengthNoSpaces": "8 characters or more (no spaces)",
+  "validationMaxLength": "Password must be at most 64 characters long"
+}
