@@ -21,7 +21,7 @@ const LayoutMain: FC<PropsWithChildren> = async ({ children }) => {
   return (
     <html lang={locale}>
       <body className={cn('bg-main-gradient text-main-text antialiased', inter.className)}>
-        <main className='min-h-screen bg-main-image bg-size-60 bg-repeat'>
+        <main className='min-h-screen bg-main-image bg-repeat lg:bg-auto'>
           <Providers>{children}</Providers>
         </main>
       </body>
