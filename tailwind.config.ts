@@ -15,9 +15,6 @@ const config: Config = {
         placeholder: '#6F91BC',
         'main-text': '#4A4E71',
       },
-      backgroundSize: {
-        'size-60': '50% 90%',
-      },
       backgroundImage: {
         'main-image': "url('/img/stars-group.svg')",
         'main-gradient': 'linear-gradient(167.96deg, #F4F9FF 0%, #E0EDFB 100%)',

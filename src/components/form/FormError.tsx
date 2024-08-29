@@ -32,7 +32,7 @@ const FormError: FC<IErrorMessageProps> = ({
   }
 
   return (
-    <div className={cn('space-y-2 text-secondary-validation font-medium leading-none', className)}>
+    <div className={cn('space-y-2 text-secondary-validation font-medium leading-none lg:text-center', className)}>
       {renderData.map(({ key, message, isActiveError }) => (
         <p
           key={key}
