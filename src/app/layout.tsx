@@ -11,8 +11,8 @@ import '@/styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Clario App',
-  description: 'Clario Test Application',
+  title: 'SignUp App',
+  description: 'SignUp Test Application',
 };
 
 const LayoutMain: FC<PropsWithChildren> = async ({ children }) => {
